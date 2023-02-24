@@ -1,7 +1,7 @@
 import { hslToRgb } from './utils';
 
 const WIDTH = 1000;
-const HEIGHT = 500;
+const HEIGHT = 400;
 let analyzer;
 let bufferLength;
 

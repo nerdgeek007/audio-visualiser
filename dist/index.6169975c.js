@@ -559,7 +559,7 @@ function hmrAccept(bundle, id) {
 },{}],"lGmhX":[function(require,module,exports) {
 var _utils = require("./utils");
 const WIDTH = 1000;
-const HEIGHT = 500;
+const HEIGHT = 400;
 let analyzer;
 let bufferLength;
 // grab the canvas element and set their width

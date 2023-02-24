@@ -9,14 +9,18 @@
 
   <body>
     <h1>Say Something</h1>
-    <canvas></canvas>
+    <canvas> </canvas>
+
     <script src="./src/sound.js" type="module"></script>
 
     <style>
       h1 {
+        position: absolute;
+        top: 0;
+        left: 40%;
         color: #0ee4d9;
         font-size: 3rem;
-        text-align: center;
+        margin: 0;
       }
       html {
         margin: 0;
@@ -33,6 +37,8 @@
         display: grid;
         grid-template-rows: 1fr;
         margin: 0;
+
+        overflow: hidden;
       }
     </style>
   </body>
